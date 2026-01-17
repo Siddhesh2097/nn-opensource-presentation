@@ -1,0 +1,159 @@
+/* Custom CSS for Open-Source Presentation */
+
+/* Body and base text styling */
+.reveal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+/* Heading styles - using bold Arial/Helvetica */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Slide title styling */
+.reveal h2 {
+  color: #2c3e50;
+  text-align: left;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.8em;
+}
+
+/* List styling */
+.reveal ul,
+.reveal ol {
+  margin-left: 1em;
+  line-height: 1.6;
+}
+
+.reveal li {
+  margin-bottom: 0.5em;
+}
+
+/* Strong/bold text emphasis */
+.reveal strong {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Links styling */
+.reveal a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reveal a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Code styling */
+.reveal code {
+  background-color: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: #c7254e;
+}
+
+/* Blockquote styling */
+.reveal blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: italic;
+  color: #555;
+}
+
+/* Table styling */
+.reveal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.reveal table th,
+.reveal table td {
+  border: 1px solid #ddd;
+  padding: 0.6em;
+  text-align: left;
+}
+
+.reveal table th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+/* Smaller font size class for dense slides */
+.reveal .smaller {
+  font-size: 0.85em;
+}
+
+/* Slide number styling */
+.reveal .slide-number {
+  color: #7f8c8d;
+  font-size: 0.8em;
+}
+
+/* Image styling */
+.reveal img {
+  max-width: 90%;
+  height: auto;
+  margin: 1em auto;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Section styling for better visual hierarchy */
+.reveal section {
+  text-align: left;
+}
+
+/* Title slide specific styling */
+.reveal .title-slide h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 0.3em;
+}
+
+.reveal .title-slide h2 {
+  font-size: 1.5em;
+  color: #7f8c8d;
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.reveal .title-slide .author {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 2em;
+}
+
+/* Highlighting important content */
+.reveal .highlight {
+  background-color: #fff3cd;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* Clean, professional appearance */
+.reveal .slides {
+  text-align: left;
+}
+
+/* Ensure good contrast and readability */
+.reveal p {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+}

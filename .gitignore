@@ -1,0 +1,44 @@
+# R and RStudio files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Quarto output files
+/.quarto/
+/_site/
+/presentation_files/
+*.html
+*_cache/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large image files (keep directory structure)
+# Remove this if you want to commit your images
+# images/*.png
+# images/*.jpg
+# images/*.jpeg
+# images/*.gif
+
+# Keep the images directory
+!images/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+*.bak
