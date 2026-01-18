@@ -9,258 +9,178 @@ format:
     css: custom.css
     transition: none
     background-transition: none
-    font-size: 12px
+    title-slide-attributes:
+      data-background-image: "images/admiral-logo.png, images/metabolic-logo.png, images/dataviewR-logo.png"
+      data-background-size: "150px, 150px, 150px"
+      data-background-position: "25% 90%, 50% 90%, 75% 90%"
 ---
+
+------------------------------------------------------------------------
 
 ## What We'll Cover Today
 
-- How I started contributing to open-source
-- My journey with AdmiralMetabolic
-- Joining the AdmiralDevelopment team
-- Contributing to dataviewR's CRAN release
-- Key learnings and takeaways
-- How YOU can get started
+-   My journey with AdmiralMetabolic
+-   Joining the AdmiralDevelopment team
+-   Contributing to dataviewR
+-   Key learnings and takeaways
+-   How YOU can get started
 
----
+------------------------------------------------------------------------
 
-## How It All Started
+## Quiz on Open-Source Packages
 
-**Mid-2024**
+::: {.fragment}
+**Question 1:** What Open-Source packages do you use in your day-to-day activities?
+:::
 
-- Been using R and working with data analysis
-- Wanted to give back to the community
-- Found Admiral packages - perfect fit for pharma work
-- Decided to take the leap into open-source
+::: {.fragment}
+**Question 2:** What is the central hub for all open-source R packages specifically designed for pharmaceutical and clinical trial data analysis and reporting?
+:::
 
----
+::: {.fragment}
+**Answer:** [Pharmaverse](https://pharmaverse.org/)
+:::
 
-## AdmiralMetabolic: My First Steps
+::: {.fragment}
+**Question 3:** Name a few most used functions from the admiral package?
+:::
 
-[**AdmiralMetabolic**](https://pharmaverse.github.io/admiralmetabolic/)
+::: {.fragment}
+**Question 4:** Can you name a few Open-Source R packages developed by Novo Nordisk?
+:::
 
+::: {.fragment}
+**Answer:** [AdmiralMetabolic, whirl, connector, zephyr, RAMNOG](https://novonordisk-opensource.github.io/R-packages/)
+:::
+
+------------------------------------------------------------------------
+
+## AdmiralMetabolic
+
+::: {.columns}
+::: {.column width="70%"}
 An extension of the admiral package family for metabolic analysis in clinical trials
 
-- Part of the pharmaverse ecosystem
-- Provides ADaM dataset creation tools
-- Specifically designed for metabolic endpoints
+-   Collaboration between Novo Nordisk and Roche, as well as a number of independent contributors.
+-   Provides ADaM dataset creation tools
+-   Specifically designed for metabolic endpoints
+-   Developers from NN : IAKD, SPUJ, SXD, VQUL
+-   [**Github Page**](https://pharmaverse.github.io/admiralmetabolic/)
+:::
 
----
+::: {.column width="30%"}
+![](images/metabolic-logo.png){width="200px"}
+:::
+:::
 
-## What is AdmiralMetabolic?
+------------------------------------------------------------------------
 
-**Purpose:**
-- Standardizes metabolic data analysis workflows
-- Follows CDISC ADaM standards
-- Built on admiral's proven framework
+## Joining the AdmiralDevelopment Team
 
-**Target Users:**
-- Clinical programmers
-- Biostatisticians
-- Data analysts in pharmaceutical industry
-
----
-
-## My Contributions to AdmiralMetabolic
-
-**Documentation & Vignettes**
-- Wrote comprehensive vignettes for new users
-- Improved existing documentation
-- Added practical examples and use cases
-
-**Code Review**
-- Participated in pull request reviews
-- Provided feedback on code quality
-- Helped ensure consistency across the package
-
----
-
-## What I Learned from AdmiralMetabolic
-
-**Technical Skills:**
-- Package documentation best practices
-- Writing clear, user-focused vignettes
-- Understanding CDISC standards better
-
-**Process Skills:**
-- How to review code effectively
-- Working with GitHub workflows
-- Communicating with package maintainers
-
----
-
-## The Next Step
-
-**Joining the AdmiralDevelopment Team**
-
-- Transitioned from contributor to team member
-- More responsibility and involvement
-- Deeper understanding of package architecture
-
----
-
-## AdmiralDevelopment Team Focus
-
+::: {.columns}
+::: {.column width="70%"}
+::: {.fragment}
 **My Primary Role:**
-- Unit testing and test coverage
+:::
+::: {.incremental}
+- [Unit testing and test coverage](https://github.com/pharmaverse/admiral/issues?q=is%3Aissue%20state%3Aclosed%20involves%3ASiddhesh2097)
 - Ensuring code reliability
 - Catching bugs before release
+:::
 
-**Why This Matters:**
-- Admiral packages are used in production
-- Regulatory submissions depend on accuracy
-- Quality assurance is critical
+::: {.fragment}
+[What's new in Admiral?](https://pharmaverse.github.io/admiral/cran-release/index.html)
+:::
+:::
 
----
+::: {.column width="30%"}
+![](images/admiral-logo.png){width="200px"}
+:::
+:::
+------------------------------------------------------------------------
 
 ## Contributing to dataviewR
 
-[**dataviewR**](https://gsk-biostatistics.github.io/dataviewR/)
-
-A package for creating interactive data visualization dashboards
-
-- Developed by GSK Biostatistics
-- Released on CRAN v1.0 (major milestone!)
-- Makes data exploration accessible
-
----
-
-## What is dataviewR?
-
-**Core Features:**
-- Interactive data tables
-- Dynamic filtering and sorting
-- User-friendly interface for non-programmers
-- Built on modern web technologies
-
-**Use Cases:**
-- Clinical data review
-- Safety monitoring
-- Exploratory data analysis
-
----
-
-## My Role in dataviewR
-
-**Website Development**
+::: {.columns}
+::: {.column width="70%"}
+::: {.incremental}
+- An Interactive and Feature-Rich Data Viewer for R
+- dataviewR is a powerful Shiny-based interactive data viewer that transforms the way you explore R data frames and tibbles
+- How I helped: [r-universe](https://madhankumarnagaraji.r-universe.dev/dataviewR) → [pkgdown website](https://madhankumarnagaraji.github.io/dataviewR/)
+:::
+::: {.fragment}
+**My Role:**
+:::
+::: {.incremental}
 - Created and maintained the pkgdown website
 - Organized documentation structure
-- Ensured professional presentation
-
-**Documentation**
 - Wrote detailed function documentation
 - Created practical examples
 - Added tutorials and how-to guides
+:::
+:::
 
----
+::: {.column width="30%"}
+![](images/dataviewR-logo.png){width="200px"}
+:::
+:::
 
-## My Role in dataviewR (continued)
-
-**Articles & Vignettes**
-- Authored getting-started guides
-- Created advanced usage examples
-- Explained complex features clearly
-
-**Result:**
-- Package successfully released to CRAN v1.0
-- Strong documentation foundation
-- Ready for broad community use
-
----
+------------------------------------------------------------------------
 
 ## What I Learned Along the Way
 
-**Technical Skills:**
-- R package development workflows
-- Documentation best practices (roxygen2, pkgdown)
-- Unit testing with testthat
+::: {.fragment}
+**Technical Skills:** 
+
+- R package development workflows 
+- Documentation best practices (roxygen2, pkgdown) 
+- Unit testing with testthat 
 - Git and GitHub collaboration
-- CDISC standards and pharma data structures
+:::
 
----
+::: {.fragment}
+**Soft Skills:** 
 
-## What I Learned (continued)
-
-**Soft Skills:**
-- Communicating with diverse team members
-- Taking and giving constructive feedback
-- Working asynchronously across time zones
-- Understanding user needs and perspectives
+- Communicating with diverse team members 
+- Taking and giving constructive feedback 
+- Working asynchronously across time zones 
+- Understanding user needs and perspectives 
 - Contributing effectively to team goals
+:::
+------------------------------------------------------------------------
 
----
+## How YOU Can Get Started
 
-## Key Takeaways
-
-1. **Start Small** - Documentation and examples are valuable
-2. **Be Patient** - Learning takes time
-3. **Ask Questions** - Community is supportive
-4. **Stay Consistent** - Regular small contributions add up
-5. **Enjoy the Process** - It's rewarding to see your work used
-
----
-
-## How YOU Can Get Started {.smaller}
-
-**Finding Projects:**
-- Look for "good first issue" labels on GitHub
-- Check out pharmaverse packages
+::: {.fragment}
+**Finding Projects:** 
+:::
+::: {.incremental}
+- Look for ["good first issue"](https://github.com/pharmaverse/admiral/issues?q=is%3Aissue%20state%3Aclosed%20label%3A%22good%20first%20issue%22) labels on GitHub 
+- Check out pharmaverse packages 
 - Find projects you already use and love
+::: 
 
-**Types of Contributions:**
-- Fix typos in documentation
-- Add examples to functions
-- Write vignettes or tutorials
-- Report bugs with reproducible examples
+::: {.fragment}
+**Types of Contributions:** 
+:::
+::: {.incremental}
+- Fix typos in documentation 
+- Add examples to functions 
+- Write vignettes or tutorials 
+- Report bugs with reproducible examples 
 - Improve test coverage
+:::
 
----
-
-## How YOU Can Get Started (continued) {.smaller}
-
-**Getting Comfortable:**
-- Fork the repository and experiment
-- Read the contributing guidelines
-- Start with documentation before code
-- Join community channels (Slack, discussions)
-
-**Common Concerns:**
-- "I'm not experienced enough" - Everyone starts somewhere
-- "What if I make mistakes?" - That's what code review is for
-- "I don't have time" - Even 30 minutes helps
-- "My contribution is too small" - No contribution is too small!
-
----
+------------------------------------------------------------------------
 
 ## Resources
 
-**Admiral Family:**
-- [admiral](https://pharmaverse.github.io/admiral/)
-- [admiralmetabolic](https://pharmaverse.github.io/admiralmetabolic/)
+**Admiral Family:** - [admiral](https://pharmaverse.github.io/admiral/) - [admiralmetabolic](https://pharmaverse.github.io/admiralmetabolic/)
 
-**dataviewR:**
-- [dataviewR on CRAN](https://cran.r-project.org/package=dataviewR)
-- [dataviewR website](https://gsk-biostatistics.github.io/dataviewR/)
+**dataviewR:** - [dataviewR on CRAN](https://cran.r-project.org/package=dataviewR) - [dataviewR website](https://gsk-biostatistics.github.io/dataviewR/)
 
-**Getting Started:**
-- [pharmaverse.org](https://pharmaverse.org/)
-- GitHub "good first issue" labels
+**Getting Started:** - [pharmaverse.org](https://pharmaverse.org/) - GitHub "good first issue" labels
 
----
+------------------------------------------------------------------------
 
 ## Thank You!
-
-**Questions?**
-
-*Let's explore the package websites together...*
-
----
-
-## Contact & Connect
-
-**Reach out if you:**
-- Want to discuss contributing to open-source
-- Have questions about admiral or dataviewR
-- Need guidance getting started
-- Want to collaborate on a project
-
-*The community is here to help!*
