@@ -2,6 +2,12 @@
 
 A presentation about my open-source contributions to the AdmiralMetabolic and dataviewR packages, showcasing my journey in contributing to R package development and the pharmaceutical open-source community.
 
+## View the Presentation
+
+**Live Presentation:** [https://siddhesh2097.github.io/nn-opensource-presentation/](https://siddhesh2097.github.io/nn-opensource-presentation/)
+
+The presentation is hosted on GitHub Pages and can be viewed directly in your browser.
+
 ## Overview
 
 This repository contains a Quarto revealjs presentation that walks through my experience contributing to open-source R packages, including:
@@ -30,7 +36,14 @@ quarto render presentation.qmd
 
 ## How to View the Presentation
 
-After rendering, open `presentation.html` in your web browser. Use the arrow keys to navigate between slides:
+### Option 1: View Online (Recommended)
+Visit the live presentation at: [https://siddhesh2097.github.io/nn-opensource-presentation/](https://siddhesh2097.github.io/nn-opensource-presentation/)
+
+### Option 2: View Locally
+After rendering, open `presentation.html` in your web browser.
+
+### Navigation
+Use the arrow keys to navigate between slides:
 - Right arrow or Space: Next slide
 - Left arrow: Previous slide
 - ESC: Overview mode
@@ -39,28 +52,30 @@ After rendering, open `presentation.html` in your web browser. Use the arrow key
 
 ```
 nn-opensource-presentation/
-├── README.md           # This file
-├── .gitignore         # Git ignore rules
-├── presentation.qmd   # Main presentation file
-├── custom.css         # Custom styling
-└── images/            # Folder for screenshots and logos
-    └── .gitkeep
+├── README.md              # This file
+├── .gitignore            # Git ignore rules
+├── presentation.qmd      # Main presentation file
+├── presentation.html     # Rendered presentation
+├── custom.css            # Custom styling
+├── images/               # Package logos
+│   ├── admiral-logo.png
+│   ├── metabolic-logo.png
+│   └── dataviewr-logo.png
+└── docs/                 # GitHub Pages deployment
+    ├── index.html        # Deployed presentation
+    ├── custom.css
+    ├── images/
+    └── presentation_files/
 ```
 
-## Adding Images
+## Images
 
-To complete the presentation, add the following images to the `images/` folder:
-
-### Required Logos
+The presentation includes logos for the following packages:
 - `admiral-logo.png` - Admiral logo
+- `metabolic-logo.png` - AdmiralMetabolic logo
 - `dataviewr-logo.png` - dataviewR logo
 
-### Required Screenshots
-- `admiral-metabolic-vignette.png` - Screenshot of vignette work
-- `dataviewr-website.png` - Screenshot of the dataviewR website
-- `dataviewr-cran.png` - Screenshot showing CRAN release
-
-**Note:** The presentation will render without these images, but placeholders will appear where images should be displayed.
+All images are included in the `images/` folder.
 
 ## Customization Options
 
