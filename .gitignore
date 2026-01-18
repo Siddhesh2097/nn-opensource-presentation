@@ -9,7 +9,6 @@
 /.quarto/
 /_site/
 /presentation_files/
-*.html
 *_cache/
 
 # System files
