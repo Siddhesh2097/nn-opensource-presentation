@@ -11,6 +11,12 @@
 /presentation_files/
 *_cache/
 
+# Add to .gitignore
+presentation.html
+presentation_files/
+*_files/
+*.html
+
 # System files
 .DS_Store
 .DS_Store?
